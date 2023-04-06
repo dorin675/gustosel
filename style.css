@@ -1,0 +1,98 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    height: fit-content;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    margin: 0 auto;
+}
+.head-bar{
+    padding-top: 15px;
+    margin-bottom: 15px;
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(to left, #f7971e, #ffd200); 
+    display: flex;
+    column-gap: 600px;
+    z-index: 1;
+
+}
+
+.telephone,.email{
+    display: inline;
+    padding: 200px 10px;
+    font-size: 18px;
+
+}
+.nav-bar{
+    display: inline;
+    padding: 200px 10px;
+    font-size: 18px;
+}
+.image-description{
+    background: white;
+    margin-top: -50px;
+    width: 100%;
+    height: 700px;
+}
+
+.parteneri{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parteneri li{
+    font-size: 40px;
+    font-weight: bold;
+}
+.parteneri a{
+    color: chartreuse;
+}
+.image-description-2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmX7BBSrFnRzV2qnYZGG16VTQ3ZbZDknunYg&usqp=CAU);
+    margin-top: -50px;
+    width: 100%;
+    height: 700px;
+    z-index: 0;
+    background-size: cover;
+    text-align: center;
+}
+.image-description-3{
+background-color: white;
+    margin-top: -50px;
+    width: 100%;
+    height: 700px;
+    z-index: 0;
+}
+.image-description-4{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJflM1UUoun7kFvsfga1a6sJ0TbCyjgyWHGQ&usqp=CAU);
+    margin-top: -20px;
+    width: 100%;
+    height: 700px;
+    z-index: 0;
+    background-size: cover;  
+}
+.image-description-4 div{
+    margin-left: 10% ;
+    
+}
+.section-acasa-1{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.line{
+    width: 78%;
+    border: 2px solid black;
+    border-radius: 1px;
+    margin-top: 25px ;
+    margin-bottom: 25px ;
+}
+.section-acasa-1 ul li img{
+    border-radius: 2px;
+}
