@@ -10,6 +10,7 @@ body{
     color:white;
     background: orange;
 }
+
 a{
     text-decoration: none;
     color: black;
@@ -116,7 +117,7 @@ ul{
     transition: 1s;
 }
 .container-min:hover{
-    background:linear-gradient(to left, #f7971e, #ffd200); ;
+    background:linear-gradient(to left, #f7971e, #ffd200); 
     color: white;
 }
 .titlu::after{
